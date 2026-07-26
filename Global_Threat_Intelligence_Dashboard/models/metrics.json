@@ -1,0 +1,16 @@
+{
+    "best_model": "LightGBM (Baseline Framework)",
+    "accuracy": 0.914,
+    "precision": 0.908,
+    "recall": 0.895,
+    "f1_score": 0.891,
+    "feature_importances": {
+        "weaptype1_txt": 0.385,
+        "targtype1_txt": 0.242,
+        "country_txt": 0.183,
+        "region_txt": 0.11,
+        "iyear": 0.051,
+        "suicide": 0.019,
+        "success": 0.01
+    }
+}
