@@ -49,7 +49,7 @@ def _draw_page_chrome(canvas, doc):
 
     canvas.setFont("Helvetica", 8)
     canvas.setFillColor(colors.HexColor("#64748b"))
-    canvas.drawString(36, 20, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')} • Global Terrorism Database (GTD) Analytics Suite")
+    canvas.drawString(36, 20, f"Author: CHOPPARAPU VEERA BRAHMAM (B.Tech AIML, VVIT) • Generated: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     canvas.setFont("Helvetica-Bold", 8)
     canvas.setFillColor(colors.HexColor("#1e3a8a"))
     canvas.drawRightString(width - 36, 20, f"Page {doc.page}")
@@ -185,6 +185,8 @@ def generate_combined_project_documentation(output_filename=None) -> str:
     )
 
     intro_box_text = (
+        "<b>AUTHOR:</b> CHOPPARAPU VEERA BRAHMAM • B.Tech Artificial Intelligence &amp; Machine Learning • "
+        "Vasireddy Venkatadri Institute of Technology (VVIT)<br/><br/>"
         "<b>DOCUMENT PURPOSE:</b> This unified technical dossier combines the complete documentation of the "
         "<b>original baseline project (v1.0)</b>—including its initial architecture, file inventory, and diagnostic audit—"
         "with the <b>present upgraded platform (SENTINEL // GTI v2.4)</b>, highlighting all newly engineered analytical modules, "
