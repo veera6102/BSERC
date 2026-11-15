@@ -1,0 +1,128 @@
+{
+    "best_model": "XGBoost Multi-Class Classifier",
+    "accuracy": 0.9091,
+    "precision": 0.895,
+    "recall": 0.9091,
+    "f1_score": 0.8984,
+    "feature_importances": {
+        "country_txt": 0.0261,
+        "region_txt": 0.1022,
+        "targtype1_txt": 0.0615,
+        "weaptype1_txt": 0.7425,
+        "iyear": 0.0553,
+        "success": 0.0123,
+        "suicide": 0.0
+    },
+    "target_classes": [
+        "Armed Assault",
+        "Assassination",
+        "Bombing/Explosion",
+        "Facility/Infrastructure Attack",
+        "Hijacking",
+        "Hostage Taking (Barricade Incident)",
+        "Hostage Taking (Kidnapping)",
+        "Unarmed Assault",
+        "Unknown"
+    ],
+    "confusion_matrix": [
+        [
+            17,
+            1,
+            0,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+        ],
+        [
+            5,
+            7,
+            1,
+            1,
+            0,
+            0,
+            2,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            111,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            52,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            3,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            10,
+            0,
+            0
+        ],
+        [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0
+        ]
+    ]
+}
